@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Nunito;
+    src: url(Nunito-VariableFont_wght.ttf);
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;
+    font-family: Nunito;
+}
+
+body {
+    background-color: #A6BB8D;
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pembungkus {
+    width: 1250px;
+    margin: auto;
+    position: relative;
+}
+.logo a {
+    font-size: 50px;
+    float: left;
+    font-weight: bold;
+    color: #EAE7B1;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #3C6255;
+    border-bottom: 1px solid #EAE7B1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color:#EAE7B1;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.Gambar{
+    font-size: 131px;
+    float: left;
+    padding: 4vh;
+    color: #3C6255;
+}
+
+.tulisan{
+    font-size: 50px;
+    padding-top: 9vh;
+    color: #3C6255;
+}
+
+.Nis{
+    font-size: 35px;
+    color: #3C6255;
+}
+
+.Kelas{
+    font-size: 35px;
+    color: #3C6255;
+}
+
+.Kelas-RPL{
+    font-size: 25px;
+    color: #3C6255;
+}
+
+.History H1{
+    padding: 31px;
+    color: #3C6255;
+}
+
+.History ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.History ul li {
+    float: left;
+    font-size: 30px;
+    padding: 70px;
+    background-color: rgb(204, 203, 203);
+    border-radius: 21px;
+    margin-right: 31px;
+    margin-left: 2vh;
+}
+
+.History ul li a {
+    color:#062743;
+    text-align: center;
+    font-weight: 450;
+    text-decoration: none;
+}
+

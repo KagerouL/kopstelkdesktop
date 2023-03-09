@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Nunito;
+    src: url(Nunito-VariableFont_wght.ttf);
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;
+    font-family: Nunito;
+}
+
+body {
+    background-color: #A6BB8D;
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pembungkus {
+    width: 1250px;
+    margin: auto;
+    position: relative;
+}
+.logo a {
+    font-size: 50px;
+    float: left;
+    font-weight: bold;
+    color: #EAE7B1;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #3C6255;
+    border-bottom: 1px solid #EAE7B1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color:#EAE7B1;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+
+.Tulisan-Akun{
+    font-size: 41px;
+    font-weight: bolder;
+    padding: 2vh 0vh 0vh 9vh;
+    color: #3C6255;
+}
+
+
+.Menu-Siswa{
+    padding: 31px 0px 21px 89px;
+}
+
+
+.Akun-Siswa ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Akun-Siswa ul li {
+    float: left;
+}
+
+.Akun-Siswa ul li a {
+    color:#06430e;
+    text-align: center;
+    font-weight: 450;
+    padding: 0px 41px 0px 0px;
+    text-decoration: none;
+    font-size: 31px;
+}
+
+.Akun-Siswa ul li a h1{
+    font-size: 31px;
+    padding: 3px;
+    background-color: #06430e;
+    color: #A6BB8D;
+    border-radius: 20px;
+}

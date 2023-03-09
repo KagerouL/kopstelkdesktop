@@ -1,0 +1,170 @@
+@font-face {
+    font-family: Nunito;
+    src: url(Nunito-VariableFont_wght.ttf);
+}
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    font-family: Nunito;
+}
+
+body {
+    background-color: #A6BB8D;
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pembungkus {
+    width: 1250px;
+    margin: auto;
+    position: relative;
+}
+.logo a {
+    font-size: 50px;
+    float: left;
+    font-weight: bold;
+    color: #EAE7B1;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #3C6255;
+    border-bottom: 1px solid #EAE7B1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color:#EAE7B1;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.gambar{
+    padding: 5vh;
+}
+
+.gambar img{
+    width: 30vh;
+    float: left;
+    margin-right: 20px;
+}
+
+.gambar h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.gambar h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gambar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.gambar ul li{
+    float: left;
+}
+
+.tulisan{
+    padding-left: 25vh;
+}
+
+.gambar ul li a {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #062743;
+}
+
+.deskripsi{
+    padding: 5vh;
+    float: left;
+}
+
+.deskripsi li{
+    float: left;
+    padding-right:40px;
+    text-align: center;
+}
+
+.pesanan{
+    float: right;
+    margin: 5vh;
+    padding-right: 50vh;
+    padding-bottom: 50vh;
+    padding-top: 3vh;
+    padding-left: 4vh;
+    background-color: #EAE7B1;
+    color: #3C6255;
+    border-radius: 40px;
+}
+
+.stock input{
+    background-color: #3C6255;
+    border: none;
+    color: wheat;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.tulisan input{
+    background-color: #3C6255;
+    border: none;
+    color: wheat;
+    text-align: center;
+    border-radius: 9px;
+}
+
+.Input-Gambar {
+    background-color: #EAE7B1;
+    padding: 40px;
+    margin: 0px;
+    float: left;
+    border-radius: 9px;
+    height: 90px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+button{
+    color: wheat;
+    background-color: #3C6255;
+    border: none;
+    font-weight: bolder;
+    padding: 8px 80px 8px 80px;
+    font-size: 25px;
+    border-radius: 30px;
+    margin-top: 200px;
+}
